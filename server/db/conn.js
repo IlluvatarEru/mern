@@ -6,6 +6,7 @@ const client = new MongoClient(Db, {
 });
  
 var _db;
+//@clustertest.dmobmrl.mongodb.net/?retryWrites=true&w=majority
  
 module.exports = {
   connectToServer: function (callback) {
