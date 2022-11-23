@@ -17,6 +17,10 @@ module.exports = {
         _db = db.db("employees");
         console.log("Successfully connected to MongoDB."); 
       }
+      else 
+      {
+          console.log("Failed to connect")
+      }
       return callback(err);
          });
   },
